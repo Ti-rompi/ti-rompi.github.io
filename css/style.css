@@ -334,3 +334,8 @@ details.dox summary::-webkit-details-marker{display:none}
 .carte.chant .titre-chant{text-align:center!important;font-size:1.6em;margin:2px 0 4px}
 .carte.chant .str .copte{color:var(--goldtx);font-size:1.12em}
 .carte.chant .str{border-top-color:#E2B65733}
+
+.carte.repons .str + .str { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line, rgba(128,128,128,.25)); }
+.carte.repons .etiquette { display: block; margin-bottom: 6px; }
+.carte.repons .copte { color: var(--gold); }
+.carte.repons .str:first-child { border-top: 0; padding-top: 0; margin-top: 0; }

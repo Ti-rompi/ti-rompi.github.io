@@ -254,6 +254,7 @@ function carteCommemo(j) {
   return `<section class="carte carte-patron carte-commemo">${ic ? `<img class="icone-saint" src="${ic}" alt="${t('iconeDe')} ${esc(nom)}">` : ''}<span><small class="etiquette">${grande ? (AR() ? 'العيد' : 'Fête') : AR() ? 'تذكار شهري' : 'Commémoration mensuelle'}</small><b class="serif">${esc(grande ? nomFete : nom)}</b><small class="mut">${grande ? `${c.jour} ${nomMoisC(c.mois)}` : AR() ? 'كل شهر قبطي' : 'Chaque ' + c.jour + ' du mois copte'}</small></span></section>
   ${D.axios ? `<section class="carte axios commemo-axios"><p class="copte" lang="cop" dir="ltr">${esc(D.axios)}</p><p class="mut"${AR() ? ' dir="rtl"' : ''}>${esc(AR() ? D.axiosAr : D.axiosFr)}</p></section>` : ''}
   ${carteChant(D)}
+  ${(D.repons || []).length ? `<section class="carte repons">${D.repons.map((r) => `<div class="str"><small class="etiquette">${AR() ? r.titreAr : r.titre}</small><p class="copte" lang="cop" dir="ltr">${esc(r.c).replace(/@/g, '@<br>')}</p>${AR() ? `<p class="fr ar" dir="rtl" lang="ar">${esc(r.a)}</p>` : `<p class="fr">${esc(r.f)}</p>`}</div>`).join('')}<small class="mut src">${AR() ? 'كتاب خدمة الشماس' : 'Livre du service du diacre'}</small></section>` : ''}
   ${dox ? `<details class="carte dox commemo-dox"><summary><b>${nomDox}</b><small class="mut">${n(dox.strophes.length)} ${AR() ? 'مقاطع' : 'strophes'}</small></summary>${strophes}<small class="mut src">${AR() ? 'الإبصلمودية السنوية' : 'Psalmodie annuelle'}</small></details>` : ''}`;
 }
 

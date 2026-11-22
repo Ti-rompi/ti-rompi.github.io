@@ -1098,6 +1098,22 @@ window.SAINTS={
    "ghobrial",
    "gebrail"
   ],
-  "resume": []
+  "resume": [],
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere Gabriyl@ pinis] `nar,yaggeloc@ ,ere vy`etafhisennoufi@ `mMaria }par;enoc.",
+    "f": "Salut à Gabriel le grand archange. Salut à celui qui a annoncé la Vierge Marie.",
+    "a": "السلام لغبريال، رئيس الملائكة العظيم، السلام للذي بشّر مريم العذراء."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Ari`precbeuin `e`hryi `ejwn@ `w pi`ar,`aggeloc =e=;=u@ Gabriyl pifaisennofi@ `ntef,a nennobi nan ebol.",
+    "f": "Intercède pour nous ô archange pur Gabriel l’annonciateur, pour qu’Il nous pardonne nos péchés.",
+    "a": "اشفع فينا يا رئيس الملائكة الطاهر غبريال المبشر ليغفر رئيس السمائيين ليغفر لنا خطايانا."
+   }
+  ]
  }
 };
