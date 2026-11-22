@@ -141,7 +141,44 @@ window.SAINTS={
   ],
   "axios": "Axia ]agia Maria ]par;enoc",
   "axiosFr": "Digne est sainte Marie la Vierge",
-  "axiosAr": "مستحقة القديسة مريم العذراء"
+  "axiosAr": "مستحقة القديسة مريم العذراء",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis) · annuel",
+    "titreAr": "مرد الإبركسيس · السنوي",
+    "c": "<ere ne Maria@ ][rompi e;necwc@ ;y`etacmici nan@ `mV] piLogoc.",
+    "f": "Salut à toi, Marie, la belle colombe. Tu as enfanté pour nous Dieu le verbe.",
+    "a": "السلام لك يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة."
+   },
+   {
+    "titre": "Répons de l’Évangile · veille",
+    "titreAr": "مرد الإنجيل · عشية",
+    "c": "Aoumys `n`chimi [itai`o@ `are[ici `n;o `nhoterwou tyrou@ je `n;o pe `psousou `nnipar;enoc@ ];e`otokoc Mari`a.",
+    "f": "Beaucoup de femmes ont été honnorées, tu as été exaltée plus qu’elles car tu es la fierté des vierges ô Marie la mère de Dieu.",
+    "a": "نساء كثيرات نلن كرامات. تعاليت أنت أكثر من جميعهن. لأنك أنت فخر العذارى يا مريم والدة الإله."
+   },
+   {
+    "titre": "Répons de l’Évangile · aube",
+    "titreAr": "مرد الإنجيل · باكر",
+    "c": "Niourwou tyrou `nte `pkahi@ cemosi qen peouwini@ ouoh ni`e;noc qen peviri@ `wMari`a `;mau `mV].",
+    "f": "Tous les rois de la terre, suivent ta lumière, et les nations, ton éclat ô Marie la mère de Dieu.",
+    "a": "كل ملوك الأرض يسيرون في نورك والأمم في ضيائك يا مريم أم الله."
+   },
+   {
+    "titre": "Répons de l’Évangile · messe",
+    "titreAr": "مرد الإنجيل · القداس",
+    "c": "Ten[ici `mmo qen ouem`psa@ nem Elicabet tecuggenyc@ je `t`cmarwout `n;o qen nihiomi@ `f`cmarwout `nje `poutah `nte teneji.",
+    "f": "Nous t’élevons dignement, avec Elisabeth ta parente, \"Bénie es tu entre toutes les femmes et béni est le fruit de tes entrailles.\"",
+    "a": "نرفعك باستحقاق مع أليصابات نسيبتك، مباركة أنت في النساء ومباركة هي ثمرة بطنك."
+   },
+   {
+    "titre": "Répons de l’Évangile · suite",
+    "titreAr": "مرد الإنجيل · تكملة",
+    "c": "Ari`precbeuin `e`hryi `ejwn@ `w ten[oic `nnyb tyren ];e`otokoc@ Mari`a `;mau `mpencwtyr@ `ntef,a nennobi nan `ebol.",
+    "f": "Intercède pour nous, ô notre Dame à tous, la Mère de Dieu, Marie la mère de notre Sauveur pour qu’Il nous pardonne nos péchés.",
+    "a": "اشفعي فينا يا سيدتنا كلنا، السيدة والدة الإله مريم أم مخلصنا، ليغفر لنا خطايانا."
+   }
+  ]
  },
  "michel": {
   "dox": [
@@ -206,7 +243,40 @@ window.SAINTS={
     }
    ],
    "sourceAr": "طقس سر الزيجة (ميخائيل بدل العريس)"
-  }
+  },
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis) · annuel",
+    "titreAr": "مرد الإبركسيس · السنوي",
+    "c": "<ere Mi,ayl@ pinis] `nar,yaggeloc@ ,ere piar,yctrati,oc `nte `tjom `nnivyou`i.",
+    "f": "Salut à Michel le grand archange, salut au chef des armées célestes.",
+    "a": "السلام لميخائيل رئيس الملائكة العظيم، السلام لرئيس جند السموات.",
+    "quand": "annuel"
+   },
+   {
+    "titre": "Répons des Actes (Praxis) · 12 Hatour",
+    "titreAr": "مرد الإبركسيس · ١٢ هاتور",
+    "c": "<ere Mi,ayl@ pinis] `nar,yaggeloc@ ,ere Dwro;eoc nem :e`opicte.",
+    "f": "Salut à Michel le grand archange, salut à Dorothéos et Théopesta.",
+    "a": "السلام لميخائيل رئيس الملائكة العظيم، السلام لدوروثاؤس وثاؤبستي.",
+    "quand": "3-12"
+   },
+   {
+    "titre": "Répons des Actes (Praxis) · 12 Baouna",
+    "titreAr": "مرد الإبركسيس · ١٢ بؤونة",
+    "c": "<ere Mi,ayl@ pinis] `nar,yaggeloc@ ,ere Ari`ctar,oc nem Euvomi`a.",
+    "f": "Salut à Michel le grand archange, salut à Aristarque et Euphomie.",
+    "a": "السلام لميخائيل رئيس الملائكة العظيم، السلام لأرسترخس وأوفومية.",
+    "quand": "10-12"
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Ariprecbeuin `e`hryi ejwn@ w pi`ar,y`aggeloc =e=;=u@ Mi,ayl `p`ar,wn `nna nivyoui@ `ntef,a nennobi nan `ebol.",
+    "f": "Intercède pour nous ô archange pur Michel, le chef des célestes pour qu’Il nous pardonne nos péchés.",
+    "a": "اشفع فينا يا رئيس الملائكة الطاهر ميخائيل رئيس السمائيين ليغفر لنا خطايانا."
+   }
+  ]
  },
  "raphael": {
   "dox": [
@@ -268,7 +338,23 @@ window.SAINTS={
   ],
   "axios": "Axioc Ravayl `pounof `nhyt",
   "axiosFr": "Digne est Raphaël, la joie des cœurs",
-  "axiosAr": "مستحق رافائيل مفرح القلوب"
+  "axiosAr": "مستحق رافائيل مفرح القلوب",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "Marenouwst `m`Viwt nem `Psyri nem Pi`pneuma =e=;=u@ `ntentai`o `nRavayl pimah somt `nar,yaggeloc.",
+    "f": "Prosternons-nous devant le Père, le Fils et le Saint-Esprit, et honorons Raphaël, le troisième archange.",
+    "a": "فلنسجد للآب والابن والروح القدس ونكرم رافائيل الثالث في رؤساء الملائكة."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Ari`precbeuin `e`hryi ejwn@ `w pi`ar,y`aggeloc =e=;=u@ Ravayl `pounof `nhyt@ `ntef,a nennobi nan ebol.",
+    "f": "Intercède pour nous ô archange pur Raphaël qui réjouit les cœurs, pour qu’Il nous pardonne nos péchés.",
+    "a": "اشفع فينا يا رئيس الملائكة الطاهر رافائيل مفرح القلوب ليغفر لنا خطايانا."
+   }
+  ]
  },
  "georges": {
   "dox": [
@@ -366,7 +452,23 @@ window.SAINTS={
   ],
   "axios": "Axioc pa[oic `pouro Gewrgioc",
   "axiosFr": "Digne est mon seigneur le prince Georges",
-  "axiosAr": "مستحق سيدي الملك جاورجيوس"
+  "axiosAr": "مستحق سيدي الملك جاورجيوس",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere nak `w pimarturoc@ ,ere piswij `ngenneoc@ ,ere pi`a;lovoroc@ pa=o=c `pouro Ge`wrgioc.",
+    "f": "Salut à toi ô martyr, salut au héros courageux, salut au persévérant, mon maître le roi Georges.",
+    "a": "السلام لك أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد. سيدي الملك جيؤرجيوس."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `mP=o=c `e`hryi `ejwn@ `w pi`a;lovoroc `mmarturoc@ pa=o=c `pouro Ge`wrgioc@ `ntef,a nennobi nan ebol.",
+    "f": "Implore le Seigneur pour nous, le persévérant martyr, mon maître le roi Georges, pour qu’Il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا، أيها الشهيد المجاهد، سيدي الملك جيؤرجيوس، ليغفر لنا خطايانا."
+   }
+  ]
  },
  "mina": {
   "dox": [
@@ -454,7 +556,23 @@ window.SAINTS={
   ],
   "axios": "Axioc apa Myna `nte niVaiat",
   "axiosFr": "Digne est abba Mina de Phayat",
-  "axiosAr": "مستحق أبا مينا البياضي"
+  "axiosAr": "مستحق أبا مينا البياضي",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere nak `w pimarturoc@ ,ere piswij `ngenneoc@ ,ere pi`a;lovoroc@ abba Myna `nte niVaiat.",
+    "f": "Salut à toi ô martyr, salut au héros courageux, salut au persévérant, abba Mina de Fayat.",
+    "a": "السلام لك أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد أبا مينا البياضي."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `mP=o=c `e`hryi ejwn@ `w pi`a;lovoroc `mmarturoc@ `abba Myna `nte Nivaiat@ `ntef,a nennobi nan ebol.",
+    "f": "Implore le Seigneur pour nous ô persévérant martyr abba Mina de Fayat pour qu’il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا أيها الشهيد المجاهد أبا مينا المريوطي، ليغفر لنا خطايانا."
+   }
+  ]
  },
  "mercure": {
   "dox": [
@@ -519,7 +637,23 @@ window.SAINTS={
   ],
   "axios": "Axioc Vilopatyr Merkourioc",
   "axiosFr": "Digne est Philopatir Mercure",
-  "axiosAr": "مستحق فيلوباتير مرقوريوس"
+  "axiosAr": "مستحق فيلوباتير مرقوريوس",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere nak `w pimarturoc@ ,ere piswij `ngenneoc@ ,ere pi`a;lovoroc@ Vilopatyr Merkourioc.",
+    "f": "Salut à toi ô martyr, salut au héros courageux, salut au persévérant, Philopatir Mercorios.",
+    "a": "السلام لك أيها الشهيد. السلام للشجاع البطل. السلام للابس الجهاد، فيلوباتير مرقوريوس."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `mP=o=c `e`hryi ejwn@ `w pi`a;lovoroc `mmarturoc@ Vilopatyr Merkourioc@ `ntef,a nennobi nan ebol.",
+    "f": "Implore le Seigneur pour nous ô persévérant martyr Philopatir Mercorios pour qu’il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا أيها الشهيد المجاهد محب الآب مرقوريوس ليغفر لنا خطايانا."
+   }
+  ]
  },
  "moise": {
   "dox": [
@@ -703,7 +837,23 @@ window.SAINTS={
   ],
   "axios": "Axioc abba Antwnioc piqybc `nte ]metmona,oc",
   "axiosFr": "Digne est abba Antoine, la lumière du monachisme",
-  "axiosAr": "مستحق أنبا أنطونيوس مصباح الرهبنة"
+  "axiosAr": "مستحق أنبا أنطونيوس مصباح الرهبنة",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere peniwt Antwnioc@ piqybc `nte ]metmona,oc@ ,ere peniwt `ndikeoc@ pimenrit `nte P=,=c.",
+    "f": "Salut à notre père Antoine, la lanterne du monachisme, salut à notre père le juste, le bien-aimé du Christ.",
+    "a": "السلام لأبينا أنطونيوس مصباح الرهبنة. السلام لأبينا البار حبيب المسيح."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `mP=o=c `e`hryi `ejwn@ `peniwt =e=;=u `ndikeoc abba Antwnioc piar,ymonaqoc@ `ntef,a nennobi nan `ebol.",
+    "f": "Implore le Seigneur pour nous, notre saint père le juste abba Antoine, le père des moines, pour qu’Il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا يا أبينا القديس البار أنبا أنطونيوس أب الرهبان ليغفر لنا خطايانا."
+   }
+  ]
  },
  "paul": {
   "dox": [
@@ -807,6 +957,22 @@ window.SAINTS={
   "resume": [
    "Moine de Scété, disciple de saint Pambo, Bichoy était connu pour son amour ardent du Christ. La tradition rapporte qu’il attachait ses cheveux au plafond pour ne pas s’endormir pendant la prière.",
    "Le Seigneur lui apparut sous les traits d’un vieillard dont il lava les pieds. Il s’endormit en paix vers 417 ; son corps repose dans le monastère qui porte son nom, au Wadi Natroun."
+  ],
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere peniwt `ndikeoc@ piqybc `nte ]metmona,oc@ ,ere pimenrit `nte P=,=c@ abba Piswi@ pirwmi `ntelioc.",
+    "f": "Salut à notre père le juste, la lanterne du monachisme, salut au bien-aimé du Christ, abba Bichoy, l’homme parfait.",
+    "a": "السلام لأبينا البار مصباح الرهبنة، السلام لمحب المسيح أنبا بيشوي، الرجل الكامل."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `mP=o=c `e`hryi `ejwn@ peniwt =e=;=u `ndikeoc@ abba Piswi@ pi;myi pirwmi `ntelioc@ `ntef,a nennobi nan `ebol.",
+    "f": "Implore le Seigneur pour nous, notre saint père le juste abba Bichoy, l’homme juste et parfait, pour qu’Il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا يا أبانا القديس البار أنبا بيشوي، الرجل البار الكامل ليغفر لنا خطايانا."
+   }
   ]
  },
  "karas": {
@@ -988,7 +1154,23 @@ window.SAINTS={
   ],
   "axios": "Axioc abba Markoc pi`apoctoloc",
   "axiosFr": "Digne est abba Marc l’apôtre",
-  "axiosAr": "مستحق أبا مرقس الرسول"
+  "axiosAr": "مستحق أبا مرقس الرسول",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere nak `w pimarturoc@ ,ere pi`eu`aggelictyc@ ,ere pi`apoctoloc@ abba Markoc pi;e`wrimoc.",
+    "f": "Salut à toi, martyr, salut à l’évangéliste, salut à l’apôtre, Marc le contemplateur de Dieu.",
+    "a": "السلام لك أيها الشهيد السلام للإنجيلي السلام للرسول مرقس ناظر الإله."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `m`P=o=c `e`hryi `ejwn@ w pi;ewrimoc `n`eu`aggelictyc@ Markoc pi`apoctoloc@ `ntef,a nennobi nan `ebol.",
+    "f": "Implore le Seigneur pour nous ô contemplateur de Dieu l’évangéliste, Marc, l’apôtre, pour qu’Il nous pardonne nos péchés.",
+    "a": "اطلب من الرب عنا يا ناظر الإله الإنجيلي مرقس الرسول ليغفر لنا خطايانا."
+   }
+  ]
  },
  "pierrepaul": {
   "dox": [
@@ -1062,7 +1244,23 @@ window.SAINTS={
   ],
   "axios": "Axioc peniwt Petroc nem pencaq Pauloc",
   "axiosFr": "Dignes sont notre père Pierre et notre maître Paul",
-  "axiosAr": "مستحقان أبونا بطرس ومعلمنا بولس"
+  "axiosAr": "مستحقان أبونا بطرس ومعلمنا بولس",
+  "repons": [
+   {
+    "titre": "Répons des Actes (Praxis)",
+    "titreAr": "مرد الإبركسيس",
+    "c": "<ere na=o=c `nio]@ `n`apoctoloc@ ,ere nima;ytyc@ `nte pen=o=c I=y=c P=,=c.",
+    "f": "Salut à mes seigneurs et pères les apôtres, salut aux disciples de notre Seigneur Jésus Christ.",
+    "a": "السلام لسادتي الآباء الرسل، السلام لتلاميذ ربنا يسوع المسيح."
+   },
+   {
+    "titre": "Répons de l’Évangile",
+    "titreAr": "مرد الإنجيل",
+    "c": "Twbh `m`P=o=c `e`hryi `ejwn `w na=o=c `nio] `n`apoctoloc nem `pcepi `nte nima;ytyc@ `ntef,a nennobi nan `ebol.",
+    "f": "Implorez le Seigneur pour nous ô mes seigneurs et pères les apôtres, et tous les autres disciples pour qu’Il nous pardonne nos péchés",
+    "a": "اطلبوا من الرب عنا، يا سادتي الآباء الرسل، وبقية التلاميذ، ليغفر لنا خطايانا."
+   }
+  ]
  },
  "gabriel": {
   "dox": [

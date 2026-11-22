@@ -241,6 +241,13 @@ function carteChant(D) {
   const ch = D && D.chant; if (!ch) return '';
   return `<section class="carte axios chant"><small class="etiquette">${AR() ? ch.titreAr : ch.titre}</small><p class="copte titre-chant" lang="cop" dir="ltr">}\`ctoly</p>${ch.strophes.map((x) => `<div class="str"><p class="copte" lang="cop" dir="ltr">${esc(x.c).replace(/@/g, '@<br>')}</p>${AR() ? `<p class="fr ar" dir="rtl" lang="ar">${esc(x.a)}</p>` : `<p class="fr">${esc(x.f)}</p>`}</div>`).join('')}<small class="mut src">${AR() ? (ch.sourceAr || ch.source) : ch.source}</small></section>`;
 }
+// Répons du Praxis et de l'Évangile (Livre du service du diacre). c (date copte) : ne garde que la variante du jour.
+function carteRepons(D, c) {
+  let l = (D && D.repons) || [];
+  if (c) { const k = c.mois + '-' + c.jour, du = l.some((r) => r.quand === k); l = l.filter((r) => !r.quand || r.quand === k || (r.quand === 'annuel' && !du)); }
+  if (!l.length) return '';
+  return `<section class="carte repons">${l.map((r) => `<div class="str"><small class="etiquette">${AR() ? r.titreAr : r.titre}</small><p class="copte" lang="cop" dir="ltr">${esc(r.c).replace(/@/g, '@<br>')}</p>${AR() ? `<p class="fr ar" dir="rtl" lang="ar">${esc(r.a)}</p>` : `<p class="fr">${esc(r.f)}</p>`}</div>`).join('')}<small class="mut src">${AR() ? 'كتاب خدمة الشماس' : 'Livre du service du diacre'}</small></section>`;
+}
 function carteCommemo(j) {
   const nom = commemoMensuelle(j); if (!nom) return '';
   const cle = ICO_COMMEMO[nom], ic = window.ICONES && window.ICONES[cle], c = jdnVersCopte(j);
@@ -254,7 +261,7 @@ function carteCommemo(j) {
   return `<section class="carte carte-patron carte-commemo">${ic ? `<img class="icone-saint" src="${ic}" alt="${t('iconeDe')} ${esc(nom)}">` : ''}<span><small class="etiquette">${grande ? (AR() ? 'العيد' : 'Fête') : AR() ? 'تذكار شهري' : 'Commémoration mensuelle'}</small><b class="serif">${esc(grande ? nomFete : nom)}</b><small class="mut">${grande ? `${c.jour} ${nomMoisC(c.mois)}` : AR() ? 'كل شهر قبطي' : 'Chaque ' + c.jour + ' du mois copte'}</small></span></section>
   ${D.axios ? `<section class="carte axios commemo-axios"><p class="copte" lang="cop" dir="ltr">${esc(D.axios)}</p><p class="mut"${AR() ? ' dir="rtl"' : ''}>${esc(AR() ? D.axiosAr : D.axiosFr)}</p></section>` : ''}
   ${carteChant(D)}
-  ${(D.repons || []).length ? `<section class="carte repons">${D.repons.map((r) => `<div class="str"><small class="etiquette">${AR() ? r.titreAr : r.titre}</small><p class="copte" lang="cop" dir="ltr">${esc(r.c).replace(/@/g, '@<br>')}</p>${AR() ? `<p class="fr ar" dir="rtl" lang="ar">${esc(r.a)}</p>` : `<p class="fr">${esc(r.f)}</p>`}</div>`).join('')}<small class="mut src">${AR() ? 'كتاب خدمة الشماس' : 'Livre du service du diacre'}</small></section>` : ''}
+  ${carteRepons(D, c)}
   ${dox ? `<details class="carte dox commemo-dox"><summary><b>${nomDox}</b><small class="mut">${n(dox.strophes.length)} ${AR() ? 'مقاطع' : 'strophes'}</small></summary>${strophes}<small class="mut src">${AR() ? 'الإبصلمودية السنوية' : 'Psalmodie annuelle'}</small></details>` : ''}`;
 }
 
@@ -805,7 +812,7 @@ function vueSaint() {
   const pt = P.paroisse.patrons[S.saint] || P.paroisse.patrons[0]; if (!pt) return vueParoisse();
   const cle = cleSaint(pt.nom), D = (window.SAINTS || {})[cle] || {}, auj = aujCivil(), j = prochaineDate(pt, auj), g = jdnVersGreg(j);
   const ic = iconeSaint(pt.nom), hs = enSemaineSainte(j), dans = j - auj;
-  const secs = [D.axios ? ['axios', 'Axios'] : null, D.dox && D.dox.length ? ['dox', AR() ? 'الذكصولوجية' : 'Doxologie'] : null, D.resume ? ['hist', AR() ? 'السيرة' : 'Histoire'] : null, ['vid', AR() ? 'فيديوهات' : 'Vidéos']].filter(Boolean);
+  const secs = [D.axios ? ['axios', 'Axios'] : null, (D.repons || []).length ? ['rep', AR() ? 'المردات' : 'Répons'] : null, D.dox && D.dox.length ? ['dox', AR() ? 'الذكصولوجية' : 'Doxologie'] : null, D.resume ? ['hist', AR() ? 'السيرة' : 'Histoire'] : null, ['vid', AR() ? 'فيديوهات' : 'Vidéos']].filter(Boolean);
   const strophes = (l) => l.map((x) => `<div class="str"><p class="copte" lang="cop" dir="ltr">${esc(x.c).replace(/@/g, '@<br>')}</p>${AR() && x.a ? `<p class="fr ar" dir="rtl" lang="ar">${esc(x.a)}</p>` : `<p class="fr">${esc(x.f)}</p>`}</div>`).join('');
   const dox = (D.dox || []).map((d, i) => `<details class="carte dox"${i === 0 ? ' open' : ''}><summary><b>${esc(D.dox.length > 1 ? d.titre.replace(/^Saint\w* |^L[ae]s? |^L’/i, '').replace(/^./, (c) => c.toUpperCase()) : (AR() ? 'الذكصولوجية' : 'Doxologie'))}</b><small class="mut">${n(d.strophes.length)} ${AR() ? 'مقاطع' : 'strophes'}</small></summary>${strophes(d.strophes)}<small class="mut src">${AR() ? 'الإبصلمودية السنوية' : 'Psalmodie annuelle'}</small></details>`).join('');
   const vids = videosSaint(cle);
@@ -819,6 +826,7 @@ function vueSaint() {
     ${secs.length > 1 ? `<nav class="puces defile saut">${secs.map(([id, l]) => `<a class="puce" href="#s-${id}" data-a="saut" data-v="s-${id}">${l}</a>`).join('')}</nav>` : ''}
     ${D.axios ? `<section id="s-axios"><h2 class="sous-titre">Axios</h2><div class="carte axios"><p class="copte" lang="cop" dir="ltr">${esc(D.axios)}</p>${(AR() ? D.axiosAr : D.axiosFr) ? `<p class="mut"${AR() ? ' dir="rtl"' : ''}>${esc(AR() ? D.axiosAr : D.axiosFr)}</p>` : ''}</div></section>` : ''}
     ${D.chant ? `<section id="s-chant"><h2 class="sous-titre">${AR() ? 'لحن' : 'Chant'}</h2>${carteChant(D)}</section>` : ''}
+    ${(D.repons || []).length ? `<section id="s-rep"><h2 class="sous-titre">${AR() ? 'مردات الإبركسيس والإنجيل' : 'Répons du Praxis et de l’Évangile'}</h2>${carteRepons(D)}</section>` : ''}
     ${dox ? `<section id="s-dox"><h2 class="sous-titre">${AR() ? 'الذكصولوجية' : 'Doxologie'}</h2>${dox}</section>` : ''}
     ${D.resume ? `<section id="s-hist"><h2 class="sous-titre">${AR() ? 'السيرة' : 'Histoire'}</h2><div class="carte hist">${D.resume.map((p) => `<p>${esc(p)}</p>`).join('')}${D.lien ? `<a class="lien" href="${D.lien}" target="_blank" rel="noopener">${AR() ? 'السيرة الكاملة على كاتاميروس' : 'Lire l’histoire complète sur Katameros'} ${AR() ? '←' : '→'}</a>` : ''}</div></section>` : ''}
     <section id="s-vid"><h2 class="sous-titre">${AR() ? 'فيديوهات' : 'Vidéos'}</h2><div class="liste-video">${vidsHtml}</div></section>
