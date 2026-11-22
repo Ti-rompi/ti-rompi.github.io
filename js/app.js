@@ -226,13 +226,16 @@ function dimancheCopte(j) {
   return AR() ? `الأحد ${ORD_AR[k - 1]} من ${nomMoisC(c.mois)}` : `${k === 1 ? '1er' : k + 'e'} dimanche de ${nomMoisC(c.mois)}`;
 }
 // Commémorations mensuelles : 12 = Archange Michel, 21 = Vierge Marie (sauf Nasie)
+// Fêtes de l'archange Gabriel (Psalmodie : 13 Hatour, 22 Kiahk, 30 Baramhat, 13 et 26 Baouna)
+const FETES_GABRIEL = ['3-13', '4-22', '7-30', '10-13', '10-26'];
 function commemoMensuelle(j) {
   const c = jdnVersCopte(j); if (c.mois === 13) return null;
   if (c.jour === 12) return AR() ? 'رئيس الملائكة ميخائيل' : 'Archange Michel';
   if (c.jour === 21) return AR() ? 'السيدة العذراء مريم' : 'Vierge Marie';
+  if (FETES_GABRIEL.includes(c.mois + '-' + c.jour)) return AR() ? 'رئيس الملائكة غبريال' : 'Archange Gabriel';
   return null;
 }
-const ICO_COMMEMO = { 'Archange Michel': 'michel', 'Vierge Marie': 'vierge', 'رئيس الملائكة ميخائيل': 'michel', 'السيدة العذراء مريم': 'vierge' };
+const ICO_COMMEMO = { 'Archange Michel': 'michel', 'Vierge Marie': 'vierge', 'رئيس الملائكة ميخائيل': 'michel', 'السيدة العذراء مريم': 'vierge', 'Archange Gabriel': 'gabriel', 'رئيس الملائكة غبريال': 'gabriel' };
 
 function carteChant(D) {
   const ch = D && D.chant; if (!ch) return '';
@@ -241,14 +244,17 @@ function carteChant(D) {
 function carteCommemo(j) {
   const nom = commemoMensuelle(j); if (!nom) return '';
   const cle = ICO_COMMEMO[nom], ic = window.ICONES && window.ICONES[cle], c = jdnVersCopte(j);
-  const grande = cle === 'michel' && c.mois === 3; // 12 Hatour : grande fête de l'archange
-  const D = cle === 'michel' ? (window.SAINTS || {}).michel || {} : {};
+  const gab = cle === 'gabriel';
+  const grande = (cle === 'michel' && c.mois === 3) || gab; // 12 Hatour (Michel) ; fêtes de Gabriel
+  const D = (cle === 'michel' || gab) ? (window.SAINTS || {})[cle] || {} : {};
+  const nomFete = gab ? (AR() ? 'تذكار رئيس الملائكة غبريال' : 'Fête de l’archange Gabriel') : AR() ? 'عيد رئيس الملائكة ميخائيل' : 'Fête de l’archange Michel';
+  const nomDox = gab ? (AR() ? 'ذكصولوجية رئيس الملائكة غبريال' : 'Doxologie de l’archange Gabriel') : AR() ? 'ذكصولوجية رئيس الملائكة ميخائيل' : 'Doxologie de l’archange Michel';
   const dox = (D.dox || [])[0];
   const strophes = dox ? dox.strophes.map((x) => `<div class="str"><p class="copte" lang="cop" dir="ltr">${esc(x.c).replace(/@/g, '@<br>')}</p>${AR() && x.a ? `<p class="fr ar" dir="rtl" lang="ar">${esc(x.a)}</p>` : `<p class="fr">${esc(x.f)}</p>`}</div>`).join('') : '';
-  return `<section class="carte carte-patron carte-commemo">${ic ? `<img class="icone-saint" src="${ic}" alt="${t('iconeDe')} ${esc(nom)}">` : ''}<span><small class="etiquette">${grande ? (AR() ? 'العيد' : 'Fête') : AR() ? 'تذكار شهري' : 'Commémoration mensuelle'}</small><b class="serif">${esc(grande ? (AR() ? 'عيد رئيس الملائكة ميخائيل' : 'Fête de l’archange Michel') : nom)}</b><small class="mut">${grande ? `12 ${nomMoisC(3)}` : AR() ? 'كل شهر قبطي' : 'Chaque ' + c.jour + ' du mois copte'}</small></span></section>
+  return `<section class="carte carte-patron carte-commemo">${ic ? `<img class="icone-saint" src="${ic}" alt="${t('iconeDe')} ${esc(nom)}">` : ''}<span><small class="etiquette">${grande ? (AR() ? 'العيد' : 'Fête') : AR() ? 'تذكار شهري' : 'Commémoration mensuelle'}</small><b class="serif">${esc(grande ? nomFete : nom)}</b><small class="mut">${grande ? `${c.jour} ${nomMoisC(c.mois)}` : AR() ? 'كل شهر قبطي' : 'Chaque ' + c.jour + ' du mois copte'}</small></span></section>
   ${D.axios ? `<section class="carte axios commemo-axios"><p class="copte" lang="cop" dir="ltr">${esc(D.axios)}</p><p class="mut"${AR() ? ' dir="rtl"' : ''}>${esc(AR() ? D.axiosAr : D.axiosFr)}</p></section>` : ''}
   ${carteChant(D)}
-  ${dox ? `<details class="carte dox commemo-dox"><summary><b>${AR() ? 'ذكصولوجية رئيس الملائكة ميخائيل' : 'Doxologie de l’archange Michel'}</b><small class="mut">${n(dox.strophes.length)} ${AR() ? 'مقاطع' : 'strophes'}</small></summary>${strophes}<small class="mut src">${AR() ? 'الإبصلمودية السنوية' : 'Psalmodie annuelle'}</small></details>` : ''}`;
+  ${dox ? `<details class="carte dox commemo-dox"><summary><b>${nomDox}</b><small class="mut">${n(dox.strophes.length)} ${AR() ? 'مقاطع' : 'strophes'}</small></summary>${strophes}<small class="mut src">${AR() ? 'الإبصلمودية السنوية' : 'Psalmodie annuelle'}</small></details>` : ''}`;
 }
 
 // ------------------------------------------------------------- Offices annoncés par les paroisses
@@ -383,7 +389,7 @@ function vueMois() {
   const s = jour(S.sel), notes = [];
   if (dimancheCopte(S.sel)) notes.push(dimancheCopte(S.sel) + '.');
   officesDu(S.sel).forEach((o) => notes.push(`${o.mienne ? '' : nomCourtPar(PAR[o.idx]) + ' : '}${AR() && o.titreAr ? o.titreAr : o.titre} ${o.debut}–${o.fin}.`));
-  if (commemoMensuelle(S.sel)) notes.push((AR() ? 'تذكار شهري: ' : 'Commémoration mensuelle : ') + commemoMensuelle(S.sel) + '.');
+  { const cm = commemoMensuelle(S.sel); if (cm) notes.push((ICO_COMMEMO[cm] === 'gabriel' ? (AR() ? 'تذكار: ' : 'Fête : ') : AR() ? 'تذكار شهري: ' : 'Commémoration mensuelle : ') + cm + '.'); }
   if (s.fetes.length) notes.push(s.fetes.join(' · ') + '.');
   if (s.jeune) { notes.push(s.libelleJeune + '.'); if (s.niveau) notes.push(s.niveau + '.'); }
   if (!s.jeune && !s.fetes.length) notes.push(s.cinquanteJours ? t('cinquante') : t('pasDeJeune'));

@@ -1063,5 +1063,41 @@ window.SAINTS={
   "axios": "Axioc peniwt Petroc nem pencaq Pauloc",
   "axiosFr": "Dignes sont notre père Pierre et notre maître Paul",
   "axiosAr": "مستحقان أبونا بطرس ومعلمنا بولس"
+ },
+ "gabriel": {
+  "dox": [
+   {
+    "titre": "L’archange Gabriel",
+    "strophes": [
+     {
+      "c": "Jabriyl pi`aggeloc@ afnau `erof `nje Daniyl@ efoh`i `eratf hijen nefvat@ hijen nenc`votou `m`viaro.",
+      "f": "Daniel a vu l’ange Gabriel, debout sur ses pieds au bord du fleuve.",
+      "a": "غبريال الملاك رآه دانيال واقفا على قدميه على شاطىء النهر."
+     },
+     {
+      "c": "+ Afcouten tefjij `ebol@ `nou`inam sa `e`hryi `e`tve@ `etafwrk `mvyet[`oci@ vy`etsop sa `eneh.",
+      "f": "+ Il tendit sa main droite, vers le ciel, et jura par le Très-Haut qui est pour toujours.",
+      "a": "+ ومد يده اليمنى الى السماء وحلف بالعلى الدائم الى الأبد."
+     },
+     {
+      "c": "Je icjen oucyou sa oucyou@ sa `tkevasi `nte oucyou@ sa `pjwk `ebol `nte nihoracic@ `anok ]natamok `erwou.",
+      "f": "Disant : d’un temps à un autre, et à un demi temps, jusqu’à la fin de la vision dont je t’informe.",
+      "a": "قائلا من زمان الى زمان والى نصف زمان الى تمام الرؤيا أنا أخبرك بها."
+     },
+     {
+      "c": "+ Ari`precbeuin `e`hryi `ejwn@ `w pi`ar,`aggeloc =e=;=ui@ Gabriyl pifaisennofi@ `ntef,a nennobi nan ebol.",
+      "f": "+ Intercède pour nous ô archange pur Gabriel l’annonciateur, pour qu’Il nous pardonne nos péchés.",
+      "a": "+ اشفع فينا يا رئيس الملائكة الطاهر غبريال المبشر ليغفر رئيس السمائيين ليغفر لنا خطايانا."
+     }
+    ]
+   }
+  ],
+  "lien": "https://katameros.app/fr/synaxarium/",
+  "mots": [
+   "gabriel",
+   "ghobrial",
+   "gebrail"
+  ],
+  "resume": []
  }
 };
