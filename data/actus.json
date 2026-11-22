@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T23:11:31+00:00",
+ "maj": "2026-11-22T08:49:19+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
@@ -7,14 +7,19 @@
    "id": "UChakWkDk18Ip1iN2qv2bCfQ",
    "videos": [
     {
-     "id": "-G7m3yGqEUs",
-     "titre": "Divine liturgie du Samedi - 21/11/2026",
-     "date": "2026-11-21T22:12:47+00:00"
+     "id": "o4ToS3X-Tds",
+     "titre": "Divine Liturgie  du Dimanche - 22/11/2026",
+     "date": "2026-11-22T07:42:54+00:00"
     },
     {
      "id": "W6i6lYW2VVE",
      "titre": "Louange de minuit du Dimanche - 21/11/2026",
-     "date": "2026-11-21T15:58:15+00:00"
+     "date": "2026-11-22T07:01:27+00:00"
+    },
+    {
+     "id": "-G7m3yGqEUs",
+     "titre": "Divine liturgie du Samedi - 21/11/2026",
+     "date": "2026-11-21T22:12:47+00:00"
     },
     {
      "id": "YocZEgzAyo8",
@@ -75,11 +80,6 @@
      "id": "NW0oEfG9B5g",
      "titre": "Louange de minuit du mardi - 09/11/2026",
      "date": "2026-11-10T07:07:57+00:00"
-    },
-    {
-     "id": "D34iMx3ZGBI",
-     "titre": "Divine Liturgie du Dimanche en présence de Monseigneur Anba Marc - 08/11/2026",
-     "date": "2026-11-08T22:15:37+00:00"
     }
    ]
   },
@@ -171,6 +171,11 @@
    "id": "UCBfx4G35mTLLZF5iHcJ7EgA",
    "videos": [
     {
+     "id": "u8KfBMKm-7s",
+     "titre": "Divine Liturgie du Dimanche - 22/11/2026",
+     "date": "2026-11-22T07:44:47+00:00"
+    },
+    {
      "id": "NXiP7L27Kfw",
      "titre": "Questions/Réponses - Conférence \"Qu'est-ce que nos enfants attendent de nous\" - 25/10/2026",
      "date": "2026-11-03T22:50:43+00:00"
@@ -239,11 +244,6 @@
      "id": "NIUtJuo2a-k",
      "titre": "Divine Liturgie du Dimanche - 06/09/2026",
      "date": "2026-09-06T08:42:53+00:00"
-    },
-    {
-     "id": "yHSqh_jxNnE",
-     "titre": "Divine Liturgie du Dimanche - 30/08/2026",
-     "date": "2026-08-30T20:48:26+00:00"
     }
    ]
   },
@@ -253,14 +253,14 @@
    "id": "UC1y9v-py0BV4U0ta_JmUIqA",
    "videos": [
     {
+     "id": "etzsgyafjug",
+     "titre": "كنيسة العذراء سيدة الاقباط باريس              22/11/2026            قداس  اليوم الاحد",
+     "date": "2026-11-15T10:28:06+00:00"
+    },
+    {
      "id": "sEMpdGhyE40",
      "titre": "كنيسة العذراء سيدة الاقباط باريس              15/11/2026            قداس  اليوم الاحد",
      "date": "2026-11-15T11:53:39+00:00"
-    },
-    {
-     "id": "etzsgyafjug",
-     "titre": "كنيسة العذراء سيدة الاقباط باريس              15/11/2026            قداس  اليوم الاحد",
-     "date": "2026-11-15T10:28:06+00:00"
     },
     {
      "id": "X75nousmJ-s",
@@ -417,6 +417,11 @@
    "id": "UCGjYDIJBiwcOjqp2JpDZkIA",
    "videos": [
     {
+     "id": "z8_AwaKCNm0",
+     "titre": "Divine Liturgie du Dimanche - 22/11/2026",
+     "date": "2026-11-22T06:58:31+00:00"
+    },
+    {
      "id": "LpIz_QV5PNs",
      "titre": "Divine liturgie du Samedi - 21/11/2026",
      "date": "2026-11-21T21:40:05+00:00"
@@ -485,11 +490,6 @@
      "id": "jUnHR4QVgQ4",
      "titre": "Divine Liturgie du samedi 0310/2026",
      "date": "2026-10-10T20:31:18+00:00"
-    },
-    {
-     "id": "lQx1HUWRB18",
-     "titre": "Divine Liturgie du Dimanche - 04/10/2026",
-     "date": "2026-10-04T20:14:22+00:00"
     }
    ]
   },
@@ -581,6 +581,11 @@
    "id": "UCdFBVoz6qLAs_nozGkL2wtQ",
    "videos": [
     {
+     "id": "0E20XuMnUUc",
+     "titre": "Sermon du Dimanche 22 Novembre 2026",
+     "date": "2026-11-22T08:32:48+00:00"
+    },
+    {
      "id": "bcruWXcVHH0",
      "titre": "Sermon du Samedi 21 Novembre 2026",
      "date": "2026-11-21T20:56:34+00:00"
@@ -649,11 +654,6 @@
      "id": "jEOibZnHIfs",
      "titre": "Sermon du Samedi 10 Octobre 2026",
      "date": "2026-10-10T07:40:54+00:00"
-    },
-    {
-     "id": "UgEaIjpFiTU",
-     "titre": "Divine liturgie du dimanche 4 Octobre 2026",
-     "date": "2026-10-04T22:13:47+00:00"
     }
    ]
   },
@@ -827,6 +827,11 @@
    "id": "UC8xFvVNh36k8e4rfV5NCYhA",
    "videos": [
     {
+     "id": "vsBplU1cmoQ",
+     "titre": "Messe du dimanche",
+     "date": "2026-10-23T07:34:15+00:00"
+    },
+    {
      "id": "TMlkC4GgK-U",
      "titre": "Pourquoi ne savons-nous plus attendre ?",
      "date": "2026-11-19T11:48:29+00:00"
@@ -855,11 +860,6 @@
      "id": "OqqjmDXrfDA",
      "titre": "Messe du dimanche",
      "date": "2026-10-26T00:11:53+00:00"
-    },
-    {
-     "id": "vsBplU1cmoQ",
-     "titre": "Messe du dimanche",
-     "date": "2026-10-23T07:34:15+00:00"
     },
     {
      "id": "W6LezJ6_rJ4",
