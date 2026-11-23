@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T21:46:03+00:00",
+ "maj": "2026-11-23T02:42:15+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
@@ -9,7 +9,7 @@
     {
      "id": "o4ToS3X-Tds",
      "titre": "Divine Liturgie  du Dimanche - 22/11/2026",
-     "date": "2026-11-22T07:42:54+00:00"
+     "date": "2026-11-22T22:21:11+00:00"
     },
     {
      "id": "W6i6lYW2VVE",
@@ -173,12 +173,17 @@
     {
      "id": "Pm0MvvfYpuM",
      "titre": "Mahragan Al Keraza - 22/11/2026",
-     "date": "2026-11-22T11:57:26+00:00"
+     "date": "2026-11-23T02:28:32+00:00"
+    },
+    {
+     "id": "u-J24DyxjAg",
+     "titre": "Au prix de l'amour - Mahragan El-Keraza 2026",
+     "date": "2026-11-22T22:39:41+00:00"
     },
     {
      "id": "u8KfBMKm-7s",
      "titre": "Divine Liturgie du Dimanche - 22/11/2026",
-     "date": "2026-11-22T07:44:47+00:00"
+     "date": "2026-11-22T21:53:47+00:00"
     },
     {
      "id": "NXiP7L27Kfw",
@@ -239,11 +244,6 @@
      "id": "tePoz-fUHX0",
      "titre": "Divine Liturgie du Dimanche - 13/09/2026",
      "date": "2026-09-13T22:13:09+00:00"
-    },
-    {
-     "id": "OhdlYUGDhdU",
-     "titre": "Divine Liturgie du Dimanche - 06/09/2026",
-     "date": "2026-09-06T20:20:27+00:00"
     }
    ]
   },
@@ -829,7 +829,7 @@
     {
      "id": "vsBplU1cmoQ",
      "titre": "Messe du dimanche",
-     "date": "2026-10-23T07:34:15+00:00"
+     "date": "2026-11-22T22:22:44+00:00"
     },
     {
      "id": "TMlkC4GgK-U",
