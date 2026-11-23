@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T16:15:19+00:00",
+ "maj": "2026-11-23T14:32:20+00:00",
  "paroisses": {
   "p0": {
    "vierge": [
@@ -114,14 +114,14 @@
      "date": "2026-11-15T12:00:00+00:00"
     },
     {
-     "id": "w61ZP8Rv1Jw",
-     "titre": "Divine Liturgie de la Fête de Saint Georges -01/05/2026",
-     "date": "2026-05-01T12:00:00+00:00"
-    },
-    {
      "id": "erR66vVLSbs",
      "titre": "Veillée de la fête de Saint Georges - 30/04/2026",
      "date": "2026-04-30T12:00:00+00:00"
+    },
+    {
+     "id": "3XxCrJr0BnU",
+     "titre": "Vêpres de saint Georges - 27/04/2026",
+     "date": "2026-04-27T12:00:00+00:00"
     }
    ]
   },
@@ -208,8 +208,8 @@
      "date": null
     },
     {
-     "id": "Y0DjG9BnCSI",
-     "titre": "Divine Liturgie de la fête de Saint Samuel Le Confesseur avec son éminence Anba Marc",
+     "id": "w_oElpaz_vE",
+     "titre": "Prières des vêpres de la fête de Saint Samuel le Confesseur",
      "date": null
     }
    ]
@@ -227,6 +227,11 @@
   "p15": {
    "vierge": [
     {
+     "id": "w_WQ6FyPLTw",
+     "titre": "Vêpres et glorification de la vierge Marie 12.08.2023",
+     "date": "2023-08-12T12:00:00+00:00"
+    },
+    {
      "id": "Q0kvH4kSSxc",
      "titre": "Glorification de la vierge du samedi 20/08/2022",
      "date": "2022-08-20T12:00:00+00:00"
@@ -235,11 +240,6 @@
      "id": "01CIsHnGFUY",
      "titre": "Glorification de la vierge du lundi 15/08/2022",
      "date": "2022-08-15T12:00:00+00:00"
-    },
-    {
-     "id": "PFSQoDhtfrc",
-     "titre": "Glorification de la Vierge du jeudi 11/08/2022",
-     "date": "2022-08-11T12:00:00+00:00"
     }
    ]
   }
