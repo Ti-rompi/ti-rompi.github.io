@@ -1,11 +1,16 @@
 {
- "maj": "2026-11-23T14:32:16+00:00",
+ "maj": "2026-11-24T02:53:24+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
    "handle": "@dcoanbamarc",
    "id": "UChakWkDk18Ip1iN2qv2bCfQ",
    "videos": [
+    {
+     "id": "XKrosmpNu6Y",
+     "titre": "Louange de minuit du mardi - 23/11/2026",
+     "date": "2026-11-23T17:57:38+00:00"
+    },
     {
      "id": "o4ToS3X-Tds",
      "titre": "Divine Liturgie  du Dimanche - 22/11/2026",
@@ -75,11 +80,6 @@
      "id": "iPWHxzcRbps",
      "titre": "Louange de minuit du mercredi - 10/11/2026",
      "date": "2026-11-11T07:07:06+00:00"
-    },
-    {
-     "id": "NW0oEfG9B5g",
-     "titre": "Louange de minuit du mardi - 09/11/2026",
-     "date": "2026-11-10T07:07:57+00:00"
     }
    ]
   },
@@ -499,6 +499,11 @@
    "id": "UC_a9dyWxD8bC1ooOgZxSo3Q",
    "videos": [
     {
+     "id": "6SzWpuTF3Bk",
+     "titre": "Office de l’encens du soir de la fête de saint Mina - 23/11/2026",
+     "date": "2026-11-23T17:42:23+00:00"
+    },
+    {
      "id": "loXrsYRF-Vc",
      "titre": "Divine Liturgie du Samedi - 21/11/2026",
      "date": "2026-11-21T22:17:35+00:00"
@@ -567,11 +572,6 @@
      "id": "G8zRvH6u0VU",
      "titre": "Réunion du Vendredi présenté par Isabelle de Raynal - 09/10/2026",
      "date": "2026-10-10T07:18:47+00:00"
-    },
-    {
-     "id": "pl6lUPmlLvg",
-     "titre": "Divine Liturgie du Dimanche - 04/11/2026",
-     "date": "2026-10-04T21:03:43+00:00"
     }
    ]
   },
