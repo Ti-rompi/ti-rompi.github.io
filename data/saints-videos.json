@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T00:40:34+00:00",
+ "maj": "2026-11-25T21:38:29+00:00",
  "paroisses": {
   "p0": {
    "vierge": [
@@ -45,9 +45,9 @@
      "date": "2026-05-08T12:00:00+00:00"
     },
     {
-     "id": "HpQwPAwQLrQ",
-     "titre": "Divine liturgie du samedi en présence de Mgr Anba Yolios et Mgr Anba Marc - 18/04/2024",
-     "date": "2024-04-18T12:00:00+00:00"
+     "id": "fUt_kqhXZGk",
+     "titre": "Office de l’encens du soir à l’occasion de la fête de Saint Marc - 07/05/2026",
+     "date": "2026-05-07T12:00:00+00:00"
     },
     {
      "id": "-j8WgvCFdCk",
@@ -83,13 +83,13 @@
      "date": "2026-08-20T12:00:00+00:00"
     },
     {
-     "id": "0xYepTgLhis",
-     "titre": "Glorification de la Vierge Marie - 19/08/2026",
+     "id": "OCrdUUBDh-s",
+     "titre": "Glorification de la Sainte Vierge Marie - 19/08/2026",
      "date": "2026-08-19T12:00:00+00:00"
     },
     {
-     "id": "OCrdUUBDh-s",
-     "titre": "Glorification de la Sainte Vierge Marie - 19/08/2026",
+     "id": "0xYepTgLhis",
+     "titre": "Glorification de la Vierge Marie - 19/08/2026",
      "date": "2026-08-19T12:00:00+00:00"
     }
    ]
@@ -145,26 +145,31 @@
    ],
    "mercure": [
     {
-     "id": "PsEiJFPMALo",
-     "titre": "Office de L'encens du soir - Fête du Martyr de Saint Mercure -03/12/2021",
-     "date": "2021-12-03T12:00:00+00:00"
-    },
-    {
-     "id": "8y2WyGXncj0",
-     "titre": "Office de l'encens du soir de la fête de Saint Mercure aux deux épées",
+     "id": "JiDJ3jOVB8I",
+     "titre": "Divine liturgie du Dimanche 15 août paroisse St Mina St Mercure",
      "date": null
     },
     {
-     "id": "MAqHZrVckhI",
-     "titre": "Messe de la fête de Saint Mercure en présence de son Éminence Anba Marc",
+     "id": "1-t1Am8GaM8",
+     "titre": "Office de l'encens du soir de Saint Mercure (3acheyet Abou Sefen)",
      "date": null
     }
    ],
    "kyrillos": [
     {
+     "id": "DqkkHgeG_NE",
+     "titre": "Office de L'encens du soir Fête Du Saint Pape Cyrille VI  -08/03/2023",
+     "date": "2023-03-08T12:00:00+00:00"
+    },
+    {
      "id": "gtI22X1jOBM",
      "titre": "Office de L'encens du soir Fête Du Saint Pape Cyrille VI -08/03/2022-",
      "date": "2022-03-08T12:00:00+00:00"
+    },
+    {
+     "id": "ildFserho6w",
+     "titre": "Divine Liturgie de la fête du Pape Cyrille VI - 09/03/24",
+     "date": null
     }
    ]
   },
@@ -188,11 +193,6 @@
    ],
    "samuel": [
     {
-     "id": "h7ndQIc3HGw",
-     "titre": "Sermon d'Anba Marc à l'occasion des Vêpres de la Fête de Saint Samuel  (17 Décembre 2023)",
-     "date": "2023-12-17T12:00:00+00:00"
-    },
-    {
      "id": "n9XiPecMKwg",
      "titre": "Messe de la fête de Saint Samuel le Confesseur - En présence de son éminence Anba Marc - 17/12/24",
      "date": null
@@ -200,6 +200,11 @@
     {
      "id": "w_oElpaz_vE",
      "titre": "Prières des vêpres de la fête de Saint Samuel le Confesseur",
+     "date": null
+    },
+    {
+     "id": "Y0DjG9BnCSI",
+     "titre": "Divine Liturgie de la fête de Saint Samuel Le Confesseur avec son éminence Anba Marc",
      "date": null
     }
    ]
@@ -222,14 +227,14 @@
      "date": "2022-08-20T12:00:00+00:00"
     },
     {
+     "id": "01CIsHnGFUY",
+     "titre": "Glorification de la vierge du lundi 15/08/2022",
+     "date": "2022-08-15T12:00:00+00:00"
+    },
+    {
      "id": "_kaniWkYG4I",
      "titre": "Glorification de la Vierge du mardi 9/08/2022",
      "date": "2022-08-09T12:00:00+00:00"
-    },
-    {
-     "id": "TTI3k5VUAng",
-     "titre": "Glorification de la Vierge du lundi 8/08/2022",
-     "date": "2022-08-08T12:00:00+00:00"
     }
    ]
   }
