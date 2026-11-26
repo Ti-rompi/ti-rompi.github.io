@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T13:51:09+00:00",
+ "maj": "2026-11-26T22:58:10+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
@@ -9,7 +9,12 @@
     {
      "id": "3ezfsE1RRYI",
      "titre": "Divine Liturgie à l’occasion de l’ordination de prêtres - 26/11/2026",
-     "date": "2026-11-26T06:08:44+00:00"
+     "date": "2026-11-26T22:05:17+00:00"
+    },
+    {
+     "id": "rbjjMBfQ4WU",
+     "titre": "Louange de minuit du vendredi  - 26/11/2026",
+     "date": "2026-11-26T18:00:33+00:00"
     },
     {
      "id": "mAM3aoZWLyY",
@@ -20,11 +25,6 @@
      "id": "jpit0JrtBHQ",
      "titre": "Divine liturgie à l’occasion de l’ordination de diacres - 25/11/2026",
      "date": "2026-11-25T21:48:32+00:00"
-    },
-    {
-     "id": "yj8DJNyl31k",
-     "titre": "Divine liturgie à l’occasion de l’ordination de diacres - 25/11/2026",
-     "date": "2026-11-25T07:38:00+00:00"
     },
     {
      "id": "INW2rZyvBqU",
