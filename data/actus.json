@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T04:08:22+00:00",
+ "maj": "2026-11-26T13:51:09+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
@@ -7,14 +7,19 @@
    "id": "UChakWkDk18Ip1iN2qv2bCfQ",
    "videos": [
     {
-     "id": "jpit0JrtBHQ",
-     "titre": "Divine liturgie à l’occasion de l’ordination de diacres - 25/11/2026",
-     "date": "2026-11-25T21:48:32+00:00"
+     "id": "3ezfsE1RRYI",
+     "titre": "Divine Liturgie à l’occasion de l’ordination de prêtres - 26/11/2026",
+     "date": "2026-11-26T06:08:44+00:00"
     },
     {
      "id": "mAM3aoZWLyY",
      "titre": "Louange de Minuit du Jeudi - 25/11/2026",
-     "date": "2026-11-25T18:01:05+00:00"
+     "date": "2026-11-26T08:01:19+00:00"
+    },
+    {
+     "id": "jpit0JrtBHQ",
+     "titre": "Divine liturgie à l’occasion de l’ordination de diacres - 25/11/2026",
+     "date": "2026-11-25T21:48:32+00:00"
     },
     {
      "id": "yj8DJNyl31k",
@@ -75,11 +80,6 @@
      "id": "lcKOJ25UL30",
      "titre": "Louange de minuit du Dimanche - 14/11/2026",
      "date": "2026-11-15T06:07:07+00:00"
-    },
-    {
-     "id": "ESCA_ECGHLI",
-     "titre": "Divine liturgie du Samedi - 14/11/2026",
-     "date": "2026-11-14T21:33:37+00:00"
     }
    ]
   },

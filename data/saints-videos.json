@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T21:38:29+00:00",
+ "maj": "2026-11-26T13:51:14+00:00",
  "paroisses": {
   "p0": {
    "vierge": [
@@ -45,14 +45,14 @@
      "date": "2026-05-08T12:00:00+00:00"
     },
     {
-     "id": "fUt_kqhXZGk",
-     "titre": "Office de l’encens du soir à l’occasion de la fête de Saint Marc - 07/05/2026",
-     "date": "2026-05-07T12:00:00+00:00"
+     "id": "HpQwPAwQLrQ",
+     "titre": "Divine liturgie du samedi en présence de Mgr Anba Yolios et Mgr Anba Marc - 18/04/2024",
+     "date": "2024-04-18T12:00:00+00:00"
     },
     {
-     "id": "-j8WgvCFdCk",
-     "titre": "Liturgie de la Nativité célébrée par Anba Marc (6 janvier 2016)",
-     "date": "2016-01-06T12:00:00+00:00"
+     "id": "A37oBfUW3tI",
+     "titre": "Divine Liturgie de la fête de St Marc - Samedi 8 Mai 2021",
+     "date": "2021-05-08T12:00:00+00:00"
     }
    ]
   },
@@ -145,13 +145,18 @@
    ],
    "mercure": [
     {
-     "id": "JiDJ3jOVB8I",
-     "titre": "Divine liturgie du Dimanche 15 août paroisse St Mina St Mercure",
+     "id": "PsEiJFPMALo",
+     "titre": "Office de L'encens du soir - Fête du Martyr de Saint Mercure -03/12/2021",
+     "date": "2021-12-03T12:00:00+00:00"
+    },
+    {
+     "id": "8y2WyGXncj0",
+     "titre": "Office de l'encens du soir de la fête de Saint Mercure aux deux épées",
      "date": null
     },
     {
-     "id": "1-t1Am8GaM8",
-     "titre": "Office de l'encens du soir de Saint Mercure (3acheyet Abou Sefen)",
+     "id": "JiDJ3jOVB8I",
+     "titre": "Divine liturgie du Dimanche 15 août paroisse St Mina St Mercure",
      "date": null
     }
    ],
@@ -193,13 +198,13 @@
    ],
    "samuel": [
     {
-     "id": "n9XiPecMKwg",
-     "titre": "Messe de la fête de Saint Samuel le Confesseur - En présence de son éminence Anba Marc - 17/12/24",
-     "date": null
+     "id": "h7ndQIc3HGw",
+     "titre": "Sermon d'Anba Marc à l'occasion des Vêpres de la Fête de Saint Samuel  (17 Décembre 2023)",
+     "date": "2023-12-17T12:00:00+00:00"
     },
     {
-     "id": "w_oElpaz_vE",
-     "titre": "Prières des vêpres de la fête de Saint Samuel le Confesseur",
+     "id": "n9XiPecMKwg",
+     "titre": "Messe de la fête de Saint Samuel le Confesseur - En présence de son éminence Anba Marc - 17/12/24",
      "date": null
     },
     {
@@ -222,11 +227,6 @@
   "p15": {
    "vierge": [
     {
-     "id": "Q0kvH4kSSxc",
-     "titre": "Glorification de la vierge du samedi 20/08/2022",
-     "date": "2022-08-20T12:00:00+00:00"
-    },
-    {
      "id": "01CIsHnGFUY",
      "titre": "Glorification de la vierge du lundi 15/08/2022",
      "date": "2022-08-15T12:00:00+00:00"
@@ -235,6 +235,11 @@
      "id": "_kaniWkYG4I",
      "titre": "Glorification de la Vierge du mardi 9/08/2022",
      "date": "2022-08-09T12:00:00+00:00"
+    },
+    {
+     "id": "TTI3k5VUAng",
+     "titre": "Glorification de la Vierge du lundi 8/08/2022",
+     "date": "2022-08-08T12:00:00+00:00"
     }
    ]
   }
