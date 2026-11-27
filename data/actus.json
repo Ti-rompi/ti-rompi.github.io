@@ -1,11 +1,16 @@
 {
- "maj": "2026-11-27T08:21:33+00:00",
+ "maj": "2026-11-27T19:27:13+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
    "handle": "@dcoanbamarc",
    "id": "UChakWkDk18Ip1iN2qv2bCfQ",
    "videos": [
+    {
+     "id": "0RFN_bO9wRQ",
+     "titre": "Louange de minuit du Samedi  - 27/11/2026",
+     "date": "2026-11-27T18:03:50+00:00"
+    },
     {
      "id": "rbjjMBfQ4WU",
      "titre": "Louange de minuit du vendredi  - 26/11/2026",
@@ -75,11 +80,6 @@
      "id": "SDf9X2fQRdU",
      "titre": "Louange de minuit du Mardi - 16/11/2026",
      "date": "2026-11-17T07:11:10+00:00"
-    },
-    {
-     "id": "lcKOJ25UL30",
-     "titre": "Louange de minuit du Dimanche - 14/11/2026",
-     "date": "2026-11-15T06:07:07+00:00"
     }
    ]
   },
@@ -827,6 +827,16 @@
    "id": "UC8xFvVNh36k8e4rfV5NCYhA",
    "videos": [
     {
+     "id": "cQufg27s2Kc",
+     "titre": "Messe du dimanche",
+     "date": "2026-11-27T19:08:27+00:00"
+    },
+    {
+     "id": "Uex_C-4dCdA",
+     "titre": "Messe du dimanche",
+     "date": "2026-11-27T19:08:10+00:00"
+    },
+    {
      "id": "vsBplU1cmoQ",
      "titre": "Messe du dimanche",
      "date": "2026-11-22T22:22:44+00:00"
@@ -890,16 +900,6 @@
      "id": "UIbmvE5C1v4",
      "titre": "Messe du dimanche",
      "date": "2026-09-27T10:18:07+00:00"
-    },
-    {
-     "id": "8SDK4aSVnxU",
-     "titre": "Mettez en pratique la Parole !",
-     "date": "2026-09-24T16:02:55+00:00"
-    },
-    {
-     "id": "gi0xFLNo3LM",
-     "titre": "Messe du dimanche",
-     "date": "2026-09-20T22:22:21+00:00"
     }
    ]
   }
