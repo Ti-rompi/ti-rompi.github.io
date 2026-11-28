@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T02:40:09+00:00",
+ "maj": "2026-11-28T12:56:34+00:00",
  "chaines": {
   "diocese": {
    "nom": "DCO Anba Marc",
@@ -9,7 +9,7 @@
     {
      "id": "0RFN_bO9wRQ",
      "titre": "Louange de minuit du Samedi  - 27/11/2026",
-     "date": "2026-11-27T18:03:50+00:00"
+     "date": "2026-11-28T07:07:38+00:00"
     },
     {
      "id": "rbjjMBfQ4WU",
@@ -417,6 +417,11 @@
    "id": "UCGjYDIJBiwcOjqp2JpDZkIA",
    "videos": [
     {
+     "id": "OCoOQbjQorQ",
+     "titre": "Divine Liturgie du 28/nov",
+     "date": "2026-11-28T08:29:04+00:00"
+    },
+    {
      "id": "z8_AwaKCNm0",
      "titre": "Divine Liturgie du Dimanche - 22/11/2026",
      "date": "2026-11-22T21:33:05+00:00"
@@ -485,11 +490,6 @@
      "id": "iyRsEA0J89c",
      "titre": "Divine liturgie du dimanche - 11/10/2026",
      "date": "2026-10-11T20:18:47+00:00"
-    },
-    {
-     "id": "jUnHR4QVgQ4",
-     "titre": "Divine Liturgie du samedi 0310/2026",
-     "date": "2026-10-10T20:31:18+00:00"
     }
    ]
   },
@@ -498,6 +498,11 @@
    "handle": "@stminastmercure",
    "id": "UC_a9dyWxD8bC1ooOgZxSo3Q",
    "videos": [
+    {
+     "id": "UejJwHe-QA0",
+     "titre": "Divine Liturgie du Samedi - 28/11/2026",
+     "date": "2026-11-28T07:23:48+00:00"
+    },
     {
      "id": "6SzWpuTF3Bk",
      "titre": "Office de l’encens du soir de la fête de saint Mina - 23/11/2026",
@@ -567,11 +572,6 @@
      "id": "fCPo8H9aCpM",
      "titre": "Divine Liturgie du samedi - 10/10/2026",
      "date": "2026-10-10T20:34:14+00:00"
-    },
-    {
-     "id": "G8zRvH6u0VU",
-     "titre": "Réunion du Vendredi présenté par Isabelle de Raynal - 09/10/2026",
-     "date": "2026-10-10T07:18:47+00:00"
     }
    ]
   },
@@ -580,6 +580,11 @@
    "handle": "@eglisesaintmoisesaintsamue7022",
    "id": "UCdFBVoz6qLAs_nozGkL2wtQ",
    "videos": [
+    {
+     "id": "kF8c0FYzqZ8",
+     "titre": "Sermon du Samedi 28 Novembre 2026",
+     "date": "2026-11-28T08:35:12+00:00"
+    },
     {
      "id": "0E20XuMnUUc",
      "titre": "Sermon du Dimanche 22 Novembre 2026",
@@ -649,11 +654,6 @@
      "id": "6oy2YUeUi58",
      "titre": "Sermon du Dimanche 11 Octobre 2026",
      "date": "2026-10-11T21:43:01+00:00"
-    },
-    {
-     "id": "jEOibZnHIfs",
-     "titre": "Sermon du Samedi 10 Octobre 2026",
-     "date": "2026-10-10T07:40:54+00:00"
     }
    ]
   },
